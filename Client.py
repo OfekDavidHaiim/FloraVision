@@ -4,7 +4,7 @@ from tkinter import  messagebox, simpledialog, filedialog, Label, PhotoImage
 from tkinter.scrolledtext import ScrolledText
 import os
 import socket
-import re  # ליבוא המודול לעבודה עם ביטויים רגולריים
+import re  
 import threading
 
 
@@ -22,13 +22,12 @@ class ClientApp:
 
         self.background_image = PhotoImage(file="E:\\pythonProject2\\background.png")
         self.background_label = Label(root, image=self.background_image)
-        self.background_label.place(relwidth=1, relheight=1)  # גורם לתמונת הרקע למלא את כל החלון
+        self.background_label.place(relwidth=1, relheight=1)  
 
         self.welcome_label = tk.Label(root, text="Welcome to Flora Vision",
                                       font=("Helvetica", 24, "bold"), bg="white", fg="green")
         self.welcome_label.pack(pady=20)
 
-        # כפתורים לרישום והתחברות
         self.login_btn = tk.Button(root, text="LOGIN", command=self.login)
         self.login_btn.pack(pady=5)
 
@@ -122,38 +121,33 @@ class ClientApp:
     def login(self):
         email = simpledialog.askstring("Login", "Enter your email:")
         password = simpledialog.askstring("Login", "Enter your password:", show="*")
-        if not email or not password:  # Check if either field is empty
+        if not email or not password:  
             messagebox.showerror("Login Failed", "Email or password cannot be empty.")
             return
         self.send_to_server(f"LOGIN {email} {password}")
         response = self.receive_from_server()
         if response == "SUCCESS":
-            self.logged_in_email = email  # שמירת האימייל במשתנה לשימוש עתידי
-            self.login_success()  # קריאה לפונקציה שתעביר למסך הבא
+            self.logged_in_email = email  
+            self.login_success()  
         else:
             messagebox.showerror("Login Failed", "Incorrect email or password.")
 
     def login_success(self):
-        # הסתרת הכפתורים הקיימים
         self.login_btn.pack_forget()
         self.register_btn.pack_forget()
 
-        # יצירת כפתור לבחירת תמונות והצגתו
         self.select_images_btn = tk.Button(root, text="Select Images", command=self.select_images)
         self.select_images_btn.pack(pady=10)
 
-        # יצירת כפתור לסטטיסטיקות הפרדיקציה האחרונה והצגתו
         self.stats_btn = tk.Button(self.root, text="Last Prediction Stats", command=self.get_last_prediction_stats)
         self.stats_btn.pack(pady=10)
 
         self.history_btn = tk.Button(root, text="HISTORY", command=self.get_history)
         self.history_btn.pack(pady=5)
 
-        # יצירת כפתור לצ'אט והצגתו
         self.chat_btn = tk.Button(self.root, text="Open Chat", command=self.open_chat)
         self.chat_btn.pack(pady=10)
 
-        # יצירת כפתור ליציאה מהאפליקציה והצגתו
         self.exit_btn = tk.Button(root, text="EXIT", command=self.exit_app)
         self.exit_btn.pack(pady=10)
 
@@ -166,7 +160,7 @@ class ClientApp:
 
     def send_image_to_server(self, image_path):
         self.send_to_server("SEND_IMAGE")
-        self.send_to_server(self.logged_in_email)  # שליחת האימייל לפני התמונה
+        self.send_to_server(self.logged_in_email)  
         ack = self.client_socket.recv(1024).decode()
         if ack != "ACK":
             print("Failed to receive ACK from server for email")
@@ -189,14 +183,12 @@ class ClientApp:
         messagebox.showinfo("Server Response", response)
 
     def select_images(self):
-        # פתיחת דיאלוג לבחירת תמונות ושליחתן לשרת
         file_paths = filedialog.askopenfilenames(title="Select files",
                                                  filetypes=(("jpeg files", "*.jpg"), ("all files", "*.*")))
         for file_path in file_paths:
             self.send_image_to_server(file_path)
 
     def exit_app(self):
-        # שליחת הודעת יציאה לשרת, סגירת הסוקט וסגירת החלון
         self.client_socket.send("EXIT".encode())
         self.client_socket.close()
         self.root.destroy()
@@ -205,7 +197,7 @@ class ClientApp:
         name = simpledialog.askstring("Register", "Enter your name:")
         email = simpledialog.askstring("Register", "Enter your email:")
         password = simpledialog.askstring("Register", "Enter your password:", show="*")
-        if not name or not email or not password:  # Check if any field is empty
+        if not name or not email or not password:  
             messagebox.showerror("Register Failed", "Name, email, or password cannot be empty.")
             return
         self.send_to_server(f"REGISTER {name} {email} {password}")
@@ -216,7 +208,6 @@ class ClientApp:
             messagebox.showerror("Register Failed", "Registration failed. Try again.")
 
     def show_main_app(self):
-        # טופס המאפשר למשתמש להעלות תמונות לשרת
         pass
 
     def exit_app(self):
