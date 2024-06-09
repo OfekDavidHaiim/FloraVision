@@ -1,0 +1,194 @@
+ofekhaiim15@gmail.com,Black Rot
+ofekhaiim15@gmail.com,healthy
+ofekhaiim15@gmail.com,healthy
+ofekhaiim15@gmail.com,Late Blight
+ofekhaiim@gmail.com,not healthy
+ofekhaiim@gmail.com,Late Blight
+ofekhaiim@gmail.com,Late Blight
+ofekhaiim@gmail.com,not healthy
+ofekhaiim@gmail.com,Yellow Leaf Carl virus
+ofekhaiim@gmail.com,Yellow Leaf Carl virus
+ofekhaiim@gmail.com,not healthy
+ofekhaiim@gmail.com,not healthy
+ofekhaiim@gmail.com,not healthy
+ofekhaiim15@gmail.com,not healthy
+ofekhaiim15@gmail.com,not healthy
+ofekhaiim15@gmail.com,not healthy
+ofekhaiim15@gmail.com,not healthy
+ofekhaiim@gmail.com,not healthy
+ofekhaiim@gmail.com,Bacterial Spot
+ofekhaiim@gmail.com,not healthy
+ofekhaiim@gmail.com,Bacterial Spot
+ofekhaiim15@gmail.com,Powdery Mildew
+ofekhaiim@gmail.com,Powdery Mildew
+ofekhaiim@gmail.com,Powdery Mildew
+ofekhaiim@gmail.com,Early Blight
+ofekhaiim@gmail.com,Late Blight
+ofekhaiim@gmail.com,Late Blight
+ofekhaiim@gmail.com,Late Blight
+ofekhaiim@gmail.com,Late Blight
+ofekhaiim@gmail.com,Late Blight
+ofekhaiim15@gmail.com,not healthy
+ofekhaiim15@gmail.com,Late Blight
+ofekhaiim15@gmail.com,Late Blight
+ofekhaiim15@gmail.com,Late Blight
+ofekhaiim15@gmail.com,healthy
+ofekhaiim@gmail.com,Late Blight
+ofekhaiim@gmail.com,Black Rot
+ofekhaiim1@gmail.com,Black Rot
+ofekhaiim1@gmail.com,INaturalList
+ofekhaiim1@gmail.com,INaturalList
+ofekhaiim1@gmail.com,Powdery Mildew
+ofekhaiim123@gmail.com,Powdery Mildew
+ofekhaiim123@gmail.com,Powdery Mildew
+ofekhaiim123@gmail.com,Late Blight
+ofekhaiim123@gmail.com,Late Blight
+ofekhaiim123@gmail.com,Late Blight
+ofekhaiim123@gmail.com,not healthy
+ofekhaiim123@gmail.com,Black Rot
+ofekhaiim123@gmail.com,Late Blight
+ofekhaiim123@gmail.com,Bacterial Spot
+ofekhaiim123@gmail.com,Bacterial Spot
+a,Bacterial Spot
+a,Bacterial Spot
+a,Early Blight
+a,Early Blight
+a,not healthy
+a,Early Blight
+a,Early Blight
+a,Early Blight
+a,Yellow Leaf Carl virus
+a,Yellow Leaf Carl virus
+a,Yellow Leaf Carl virus
+a,Yellow Leaf Carl virus
+b,Yellow Leaf Carl virus
+b,Yellow Leaf Carl virus
+a,Yellow Leaf Carl virus
+a,Yellow Leaf Carl virus
+a,Yellow Leaf Carl virus
+b,Yellow Leaf Carl virus
+a,Yellow Leaf Carl virus
+a,Yellow Leaf Carl virus
+a,Yellow Leaf Carl virus
+b,Yellow Leaf Carl virus
+b,Early Blight
+b,INaturalList
+b,INaturalList
+a,INaturalList
+a,INaturalList
+b,INaturalList
+b,INaturalList
+b,INaturalList
+a,INaturalList
+b,INaturalList
+a,INaturalList
+b,INaturalList
+a,INaturalList
+a,INaturalList
+b,INaturalList
+b,not healthy
+b,not healthy
+b,not healthy
+b,not healthy
+a,INaturalList
+a,INaturalList
+a,INaturalList
+a,not healthy
+a,not healthy
+a,not healthy
+a,not healthy
+a,not healthy
+a,not healthy
+a,Early Blight
+a,Early Blight
+a,not healthy
+a,Early Blight
+a,Early Blight
+a,Early Blight
+b,Early Blight
+a,Early Blight
+b,Late Blight
+a,Late Blight
+a,Late Blight
+a,Late Blight
+a,Late Blight
+a,Powdery Mildew
+a,Powdery Mildew
+a,INaturalList
+a,INaturalList
+a,INaturalList
+a,INaturalList
+a,healthy
+a,healthy
+a,Black Rot
+a,Black Rot
+b,Late Blight
+b,Late Blight
+a,Powdery Mildew
+a,Powdery Mildew
+a,Powdery Mildew
+a,Powdery Mildew
+a,Powdery Mildew
+a,Powdery Mildew
+a,healthy
+a,healthy
+a,Late Blight
+a,Late Blight
+b,INaturalList
+b,INaturalList
+a,INaturalList
+a,INaturalList
+a,INaturalList
+a,INaturalList
+b,healthy
+b,healthy
+a,INaturalList
+a,INaturalList
+a,INaturalList
+a,INaturalList
+b,INaturalList
+b,INaturalList
+b,healthy
+b,healthy
+b,Late Blight
+b,Late Blight
+a,healthy
+a,healthy
+a,INaturalList
+a,INaturalList
+b,Late Blight
+b,Late Blight
+b,INaturalList
+b,INaturalList
+b,not healthy
+b,not healthy
+b,not healthy
+b,not healthy
+b,INaturalList
+b,INaturalList
+b,INaturalList
+b,INaturalList
+b,Black Rot
+b,Black Rot
+b,Black Rot
+b,Black Rot
+b,not healthy
+b,not healthy
+b,not healthy
+b,not healthy
+b,not healthy
+b,not healthy
+b,not healthy
+b,not healthy
+b,not healthy
+b,not healthy
+b,Bacterial Spot
+b,Bacterial Spot
+b,Bacterial Spot
+b,Bacterial Spot
+b,Bacterial Spot
+b,Bacterial Spot
+b,Black Rot
+b,Black Rot
+b,Black Rot
+b,Black Rot

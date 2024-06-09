@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Plant Condition Prediction</title>
+</head>
+<body>
+    <h1>Plant Condition Prediction</h1>
+
+    <form action="/" method="post" enctype="multipart/form-data">
+        <input type="file" name="image" required>
+        <input type="submit" value="Upload and Predict">
+    </form>
+
+    {% if image_loc %}
+        <h2>Prediction: {{ prediction }}</h2>
+        <img src="{{ url_for('static', filename='uploads/' + image_loc) }}" alt="Uploaded Image">
+    {% endif %}
+</body>
+</html>
